@@ -198,6 +198,20 @@ class _WeatherScreenState extends State<WeatherScreen> {
                   ),
                 ),
               ),
+
+              const SizedBox(height: 20),
+              const Center(
+                child: Text(
+                  'Developed by: RamaSandhy.id',
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black54,
+                  ),
+                ),
+              ),
+
+              const SizedBox(height: 10),
             ],
           ),
         ),
